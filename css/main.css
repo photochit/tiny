@@ -71,7 +71,7 @@
 /* end */
 
 /* flex layout elements */
-/* Container */
+
 .flex-comtainer{
     display:flex;
     flex-wrap: wrap;
@@ -81,7 +81,22 @@
     flex-wrap: wrap;
     flex-direction: column;
 }
+.flex{
+    flex:1;
+}
+/* end */
 
+/* Gred layout elements */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--main-gap);
+}
+/* end */
+
+/*for grid and flex container items */
+
+/* container */
 .jc-start{
     justify-content: flex-start;
 }
@@ -113,20 +128,8 @@
     align-content: space-around;
 }
 /* end */
-/* items class */
-.flex{
-    flex:1;
-}
-/* end */
 
-/* Gred layout elements */
-.grid-container{
-    display: grid;
-    gap: var(--main-gap);
-}
-/* end */
-
-/*for grid and flex container items */
+/* Items */
 .as-start{
     align-self: flex-start;
 }
@@ -151,4 +154,5 @@
 .js-stretch{
     justify-self: stretch;
 }
+/* end */
 /* end */
