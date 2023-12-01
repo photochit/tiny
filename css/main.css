@@ -95,7 +95,7 @@
     min-height: 200px;
 }
 
-.grid { 
+.grid {
     grid-column: span 1;
   }
 /* end */
