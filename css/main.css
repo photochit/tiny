@@ -94,6 +94,10 @@
     gap: var(--main-gap);
     min-height: 200px;
 }
+
+.grid { 
+    grid-column: span 1;
+  }
 /* end */
 
 /*for grid and flex container items */
