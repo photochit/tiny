@@ -117,6 +117,10 @@
 .flex{
     flex:1;
 }
+/* end */
+
+
+/*for grid and flex container items */
 .as-start{
     align-self: flex-start;
 }
@@ -141,5 +145,4 @@
 .js-stretch{
     justify-self: stretch;
 }
-/* end */
 /* end */
