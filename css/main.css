@@ -1,1 +1,32 @@
+/* Import fonts */
 
+/* end */
+
+/* browser clear settings */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* end */
+
+/* variables global */
+:root {
+    /* colors */
+    --text-gray: #5E5A5D;
+    --text-dark: #262526;
+    --text-white: #f3f3f3;
+    --text-light: #DCDCDC;
+    --color-blue: #8acff7;
+    --color-cyan: #8af7df;
+    --color-dark-cyan: #91bbad;
+    --color-orange: #f3a75c;
+    --beige: #E9E0DB;
+    --beige-dark: #5D5852;
+    --pink: #fab0e7;
+    --dirty-pink: #dba2cd;
+    /* end */
+}
+/* end */
+
+/* main text settings */
