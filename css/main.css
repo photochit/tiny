@@ -28,6 +28,9 @@
     --dirty-pink: #dba2cd;
     /* end */
 
+    /* Main distans between grid element*/
+    --main-gap: 1.15rem; 
+    /* end */
 }
 /* end */
 
@@ -66,3 +69,32 @@
     font-weight: 700;
 }
 /* end */
+
+/* flex grid ellement */
+.flex-comtainer{
+    display:flex;
+    flex-wrap: wrap;
+}
+.flex-comtainer-column{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.flex{
+    flex:1;
+}
+.jc-start{
+    justify-content: flex-start;
+}
+.jc-end{
+    justify-content: flex-end;
+}
+.jc-center{
+    justify-content: center;
+}
+.jc-s-between{
+    justify-content: space-between;
+}
+.jc-s-around{
+    justify-content: space-around;
+}
