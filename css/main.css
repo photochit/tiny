@@ -122,6 +122,7 @@
 /* Gred layout elements */
 .grid-container{
     display: grid;
+    gap: var(--main-gap);
 }
 /* end */
 
