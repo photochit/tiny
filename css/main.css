@@ -70,7 +70,7 @@
 }
 /* end */
 
-/* flex grid ellement */
+/* flex layout elements */
 /* Container */
 .flex-comtainer{
     display:flex;
@@ -119,6 +119,11 @@
 }
 /* end */
 
+/* Gred layout elements */
+.grid-container{
+    display: grid;
+}
+/* end */
 
 /*for grid and flex container items */
 .as-start{
