@@ -89,8 +89,10 @@
 /* Gred layout elements */
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(min(50px, 100%), 1fr));
     gap: var(--main-gap);
+    min-height: 200px;
 }
 /* end */
 
